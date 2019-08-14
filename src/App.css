@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+body {
+padding: 0px;
+}
+
+.div1{
+  display: flex;
+  justify-content: center;
+  margin: 150px 200px;
+  padding: 20px;
+  width: 50%;
+  height: 30%;
+
+  
+}
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  border-bottom: 2px solid #2196EF;
+  padding: 0%;
+  
+}
+li{
+  padding: 0 20px;
+  font-family: 'Lalezar', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px
+}
+li:hover{
+  cursor: pointer;
+  color: #2196EF;
+  border-top: 2px solid #2196EF;
+  border-right: 2px solid #2196EF;
+  border-left: 2px solid #2196EF;
+  
+
+}
+.serv{
+  position: relative;
+}
+.serv:hover{
+  cursor: pointer; 
+display: block;
+}
+.drop{
+  display: none;
+  position:absolute;
+  background-color: blueviolet;
+}
+
+.up{
+  display: block;
+  position: absolute;
+  border:3px solid #2196EF;
+  width: 300px
+}
+
+a{
+  display: flex;
+ text-decoration: none;
+ font-size: 25px ;
+ color:black;
+ flex-wrap: nowrap;
+ background-color: white;
+}
+a:hover{
+  cursor: pointer;
+  color:#2196EF;
+  background-color: rgb(235, 233, 233);
+}
